@@ -2,7 +2,7 @@ import { Couleur } from './Couleur';
 import { EtatCase } from './EtatCase';
 
 const NOMBRE_COLONNES = 7;
-const NOMBRE_LIGNES = 6;
+export const NOMBRE_LIGNES = 6;
 
 export class Grille {
   private grille: EtatCase[][] = [];
